@@ -6,15 +6,13 @@ body {
     background-size: cover;
     background-image: url(resources/wallpaperflare.com_wallpaper.jpg);
     font-family: "Noto Sans Thai Looped", sans-serif;
-    margin: 0;
-    padding-right: 0px;
-    display: flex;
+    margin: 0px;
+    display: block;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    
     display: flex;
     top: 0;
     left: 0;
@@ -23,6 +21,11 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(167, 55, 55);
+}
+
+.jn{
+    text-align: center;
+    margin: 50px;
 }
 
 .CSTU {
@@ -51,7 +54,7 @@ h2 {
 }
 
 table, th {
-    border: 2px solid aliceblue;
+    border: 1px solid aliceblue;
     border-collapse: collapse;
     margin: 20px auto;
 }
@@ -81,9 +84,47 @@ figure {
 }
 
 #Me {
-    width: 300px;
+    width: 500px;
 }
 
 ul{
     justify-content: left;
+}
+
+.info{
+    margin-left: 20px;
+}
+
+section {
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 25px;
+    overflow: auto;
+    position: relative;
+    display: flow-root;
+    padding: 0px 20px;
+    margin: 20px 15% ;
+    width: 20%;
+    height: 400px;
+    background-color: rgb(12, 7, 7)
+    
+    
+}
+h3 {
+    border-radius: 25px;
+    border: 1px solid;
+    text-align: center;
+    background-color: rgb(167, 55, 55);
+}
+
+.future{
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(12, 7, 7);
+    background-color: rgb(12, 7, 7);
+    height: 500px;
+    width: 100%;
+    
 }
