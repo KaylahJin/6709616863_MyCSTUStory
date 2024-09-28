@@ -126,5 +126,14 @@ h3 {
     background-color: rgb(12, 7, 7);
     height: 500px;
     width: 100%;
-    
+}
+
+#code{
+    box-sizing: border-box;
+    border: 1px rgb(12, 7, 7);
+    background-color: rgb(12, 7, 7);
+    font-size: x-large;
+    float: left;
+    height: 90%;
+    width: 50%;
 }
