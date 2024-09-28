@@ -124,7 +124,7 @@ h3 {
     box-sizing: border-box;
     border: 2px solid rgb(12, 7, 7);
     background-color: rgb(12, 7, 7);
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
@@ -135,5 +135,22 @@ h3 {
     font-size: x-large;
     float: left;
     height: 90%;
-    width: 50%;
+    width: 40%;
+    padding: 0px 20px;
+}
+#code-pic{
+    box-sizing: border-box;
+    float: left;
+    height: 90%;
+    width: 60%;
+    padding: 0px 20px;
+}
+
+#A{
+    font-size: 70px
+    
+}
+
+#small{
+    font-size: 20px;
 }
